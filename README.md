@@ -1,4 +1,151 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <title>Igreja Evangélica - Blog</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <style>
+    body {
+      font-family: 'Segoe UI', sans-serif;
+      margin: 0;
+      background: #fdf5e6;
+      color: #333;
+    }
 
+    header {
+      background: linear-gradient(to right, #ff5e00, #ff9900);
+      color: white;
+      padding: 30px 20px;
+      text-align: center;
+    }
+
+    header img {
+      width: 120px;
+      margin-bottom: 10px;
+    }
+
+    nav {
+      background: #cc3300;
+      display: flex;
+      justify-content: center;
+      flex-wrap: wrap;
+    }
+
+    nav a {
+      color: white;
+      text-decoration: none;
+      padding: 14px 18px;
+      display: inline-block;
+      transition: background 0.3s;
+    }
+
+    nav a:hover {
+      background: #a62900;
+    }
+
+    .hero {
+      background: #fff3e0;
+      padding: 40px 20px;
+      text-align: center;
+      color: #cc3300;
+    }
+
+    .hero h1 {
+      margin: 0;
+      font-size: 1.8em;
+    }
+
+    .container {
+      padding: 20px;
+      max-width: 1000px;
+      margin: auto;
+    }
+
+    .card {
+      background: white;
+      padding: 25px;
+      margin: 20px 0;
+      border-radius: 10px;
+      box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+    }
+
+    .card h2 {
+      color: #b32d00;
+    }
+
+    footer {
+      background: #331100;
+      color: white;
+      text-align: center;
+      padding: 20px;
+    }
+
+    .social a {
+      color: white;
+      margin: 0 10px;
+      text-decoration: none;
+    }
+
+    .social a:hover {
+      text-decoration: underline;
+    }
+  </style>
+</head>
+<body>
+
+<header>
+  <img src="https://i.postimg.cc/4nWLYJ4H/logo-igreja-otimizada.png" alt="Logo Igreja">
+  <h1>Igreja Evangélica Assembleia de Deus - Vitória Cristã</h1>
+  <p>Levando a Palavra de Deus a todos os corações</p>
+</header>
+
+<nav>
+  <a href="#">Início</a>
+  <a href="#">Mensagens</a>
+  <a href="#">Eventos</a>
+  <a href="#">Contato</a>
+  <a href="#">Sobre</a>
+</nav>
+
+<section class="hero">
+  <h1>"Porque Deus amou o mundo de tal maneira..." - João 3:16</h1>
+</section>
+
+<div class="container">
+  <div class="card">
+    <h2>Última Mensagem</h2>
+    <p>Confira a pregação da semana: "A Salvação é para todos!"</p>
+    <a href="#">Leia mais</a>
+  </div>
+
+  <div class="card">
+    <h2>Próximos Cultos</h2>
+    <ul>
+      <li>📖 Quarta-feira às 19:00h – Culto de Doutrina</li>
+      <li>🙏 Sexta-feira às 19:00h – Culto de Oração</li>
+      <li>🙌 Domingo às 18:00h – Culto da Palavra e Louvor</li>
+    </ul>
+    <p><strong>Local:</strong> Rua México, 562 – Passagem de Areia, Parnamirim/RN</p>
+  </div>
+
+  <div class="card">
+    <h2>Pedidos de Oração</h2>
+    <p>Envie seu pedido e estaremos orando por você.</p>
+    <a href="#">Clique aqui para enviar</a>
+  </div>
+</div>
+
+<footer>
+  <p>&copy; 2025 Igreja Evangélica Vitória Cristã</p>
+  <div class="social">
+    <a href="#">Facebook</a> |
+    <a href="#">Instagram</a> |
+    <a href="#">YouTube</a>
+  </div>
+</footer>
+
+</body>
+</html>
       
    
    
