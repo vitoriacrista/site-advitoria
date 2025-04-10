@@ -1,4 +1,3 @@
-
 <!DOCTYPE html>
 <html lang="pt-br">
 <head>
@@ -82,7 +81,7 @@
 </head>
 <body>
   <header>
-    <img src="/mnt/data/simbolo ADVC.png" alt="Logo da Igreja">
+    <img src="simbolo_ADVC.png" alt="Logo da Igreja">
     <h1>Assembleia de Deus Vitória Cristã</h1>
     <p>"Somos mais que vencedores por aquele que nos amou" - Romanos 8:37</p>
   </header>
